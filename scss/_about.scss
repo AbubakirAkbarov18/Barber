@@ -1,0 +1,64 @@
+:root {
+    --Catamaran: 'Catamaran', sans-serif;
+    --WhiteBlue: #99BAED;
+    --yellow: #FBB400;
+    --darkblue: #163561;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    user-select: none;
+
+    .Vector1 {
+        top: 0;
+        left: -150px;
+        position: absolute;
+    }
+
+    .Vector2 {
+        position: absolute;
+        top: 0;
+        right: -269.81px;
+    }
+}
+
+.about__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 0px 48px;
+    margin-left: 149px;
+
+    .about__heading {
+        color: var(--darkblue);
+        font-family: var(--Catamaran);
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 150.6%;
+        letter-spacing: 2.1px;
+        margin-bottom: 32px;
+
+        .about__heading--yellow {
+            color: var(--yellow);
+            font-family: var(--Catamaran);
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 150.6%;
+            letter-spacing: 2.1px;
+        }
+    }
+
+    .about__text {
+        color: var(--darkblue);
+        font-family: var(--Catamaran);
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 150.6%;
+        letter-spacing: 0.75px;
+        width: 526px;
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,57 @@
+:root {
+    --Catamaran: 'Catamaran', sans-serif;
+    --WhiteBlue: #99BAED;
+    --yellow: #FBB400;
+    --darkblue: #163561;
+}
+
+.gallary__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 272px;
+    flex-direction: column;
+    gap: 110px 0px;
+    user-select: none;
+    position: relative;
+
+    .Vector5 {
+        position: absolute;
+        right: -269.81px;
+        top: 148px;
+    }
+    
+    .Vector6 {
+        position: absolute;
+        top: 148px;
+        left: -150px;
+    }
+
+    .gallary__heading {
+        color: var(--darkblue);
+        font-family: var(--Catamaran);
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 116.6%;
+        letter-spacing: 2.1px;
+
+        span {
+            color: var(--yellow);
+            font-family: var(--Catamaran);
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 116.6%;
+            letter-spacing: 2.1px;
+        }
+    }
+
+    .gallary__imgs {
+        display: flex;
+        gap: 37px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1379px;
+
+    }
+}
